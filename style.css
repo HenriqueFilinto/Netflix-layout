@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&display=swap');
+
+body{
+    margin: 0px;
+    font-family: 'Circular Std', sans-serif;
+    background-color: #00081d;
+}
+
+#logo{
+    width: 150px;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#container{
+    background-image: linear-gradient(103.24deg, rgba(0, 8, 29, 0.9) 23.83%, rgba(0, 8, 29, 0.3) 96.1%), url(https://assets.nflxext.com/ffe/siteui/vlv3/530fc327-2ddb-4038-a3f0-2da2d9ccede1/81c68250-e0f1-4cd8-bf2d-4fd8222163de/BR-pt-20230619-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    height: 700px;
+    background-size: cover;
+    padding: 40px;
+}
+
+select{
+    padding: 5px 16px;
+    font-size: 16px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.466);
+    background-image: url(../assets/images/globok.png);
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-right: 10px;
+}
+
+#btn-enter{
+    padding: 7px 15px;
+    font-size: 14px;
+    background-color: #E50914;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+#main{
+    color: white;
+    margin-top: 100px;
+    margin-left: 100px
+}
+
+#title-main{
+    font-size: 42px;
+    font-weight: 900;
+    margin-left: 100px;
+}
+#title-main2{
+    font-size: 42px;
+    font-weight: 900;
+    margin-left: 450px;
+}
+
+h3{
+    font-weight: 400;
+    margin-top: 40px;
+    margin-left: 450px;
+}
+
+#subtitle-assistir{
+    margin-left: 570px;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+
+}
+
+#input{
+    height: 50px;
+    width: 350px;
+    background-color: rgba(29, 29, 29, 0.488);
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 0px 10px;
+    margin-left: 470px;
+}
+
+#btn-start{
+    margin-left: 10px;
+    font-size: 22px;
+    padding: 2px 20px;
+    font-weight: 700;
+    color: white;
+    background-color: #E50914;
+    border: none;
+    border-radius: 5px;
+}
+
+#box-container{
+    width: 1650px;
+    height: 2860px;
+    margin-top: 100px;    
+    background-color: black;
+    border-radius: 5px;
+}
+
+.box-info{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    padding: 60px;
+    justify-content: center;
+}
+
+.box-title{
+    font-size: 48px;
+    font-weight: 800;
+    margin: 40px;
+}
+
+.subtitle-main{
+    font-size: 18px;
+    margin: 40px;
+}
+
+.shadow{
+    width: 100%;
+    height: 7px;
+    background-color: rgba(95, 95, 95, 0.493);
+    margin: 0 auto;
+}
